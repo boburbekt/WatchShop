@@ -1,0 +1,632 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* navbar */
+nav{
+    margin: 0 auto;
+    background-color: #002d3adc;
+}
+.first-nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav .logo{
+    width: 40%;
+    text-align: start;
+}
+.navbar-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 55%;
+   
+}
+.navbar-main ul li{
+    display: inline-block;
+    padding: 5px  15px;
+    padding-bottom: 0;
+}
+.navbar-main ul{
+    margin: 0 20px;
+}
+.navbar-main ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.main-btn button{
+    background-color: #13ae92;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    color: #fff;
+}
+.main-btn button:hover{
+    background: transparent;
+    color: #13ae92;
+    box-shadow: 5px 5px 10px grey;
+}
+/* navbar */
+
+/* main */
+.main{
+    background: url(images/Hero\ Area-min.png);
+    background-position: center; 
+    background-size: cover;
+    overflow: hidden;
+    box-sizing: content-box;
+    
+}
+.main-bg{
+    background-color: #002d3adc;
+    width: 100%;
+    padding: 30px 10px;   
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 0px;
+    padding: 30px 5px;
+   
+}
+.content span{
+    margin: 50px 0;
+    color: #109886;
+    font-weight: 500;
+}
+.left-content{
+    width: 40%;
+    color: #fff;
+}
+.left-content h1{
+    font-size: 42px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+.right-content{
+    text-align: center;
+    width: 45%;
+}
+.right-content img{
+    width: 50%;
+    height: 50%;
+}
+/* main */
+/* cards */
+.cards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.left-card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    margin-right: 15px;
+}
+.card-3{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.card-1{
+    margin: 25px 10px;
+    padding: 15px 10px;
+    transition: all 0.5s;
+}
+.card-1 a{
+    color: #242424;
+    text-decoration: none;
+}
+.card-2{
+    width: 50%;
+}
+.card-icon i{
+    color:  #13AE92;
+    font-size: 36px;
+}
+.right-card{
+    width: 45%;
+    margin: 15px;
+    padding: 20px;
+}
+.card-1:hover{
+    background-color: #13AE92;
+    color: #fff;
+}
+
+.card-1:hover i,.card-1:hover a{
+    color: #fff;
+}
+/* cards */
+
+
+/* center */
+    .center{
+        background-image:  url(images/vector-bg.png);
+        background-size: cover;
+    }
+.center-bg{
+    background: #002d3aea;
+ }
+  
+.center-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.center-left{
+    width: 45%;
+    color: #fff;
+}
+.center-right{
+    width: 45%;
+    text-align: center;
+    padding: 20px 10px;
+}
+/* center */
+
+/* services */
+    .services{
+        margin: 50px auto;
+    }
+    .card-h,.card-h2{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .card-left{
+        width: 45%;
+        overflow: hidden;
+    }
+    .card-left:hover img{
+        transform: scale(1.1);
+        /* overflow: hidden; */
+    }
+    .card-right:hover img{
+        transform: scale(1.1);
+    }
+    .card-right{
+        width: 45%;
+        overflow: hidden;
+    }
+/* services */
+
+/* add */
+.add{
+    background-color: #55ffe062;
+}
+.last-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.last-right{
+    width: 45%;
+}
+.last-left{
+    width: 45%;
+}
+.app{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 65%;
+}
+/* add */
+
+/* footer */
+.footer{
+    background: #012F3C;
+    margin-bottom: 0;
+    padding: 10px;
+}
+.foot{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    color: #fff;
+}
+.foot ul li{
+    display: inline-block;
+    list-style: none;
+
+}
+.foot ul li a{
+    text-decoration: none;
+    padding: 10px 15px;
+    color: #fff;
+}
+.f-nav{
+    width: 33%;
+    text-align: center;
+}
+.logo{
+    text-align: center;
+    width: 35%;
+    margin: 10px auto;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+
+    width: 30%;
+}
+.icon{
+    padding: 10px 20px;
+}
+.hr{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px auto;
+    margin-bottom: 30px;
+}
+.hr a{
+    color: #fff;
+    text-decoration: none;
+}
+.hr p{
+    color: #fff;
+}
+.line{
+    width: 65%;
+    background: rgba(192, 192, 192, 0.638);
+    height: 0.5px;
+}
+/* footer */
+
+/* responsive */
+.bar{
+    display: none;
+}
+
+@media (max-width:1200px){
+    .main-bg{
+        padding: 0;
+    }
+    .card-1{
+        width: 90%;
+    }
+    .app{
+        width: 90%;
+    }
+}
+@media (max-width:1100px){
+    .last-right img{
+        width: 100%;
+    }
+    .card-left img{
+        width: 100%;
+    }
+    .card-right img{
+        width: 100%;
+    }
+    .f-nav{
+        width: 45%;
+    }
+    .logo{
+        width: 45%;
+    }
+    .icons{
+        width: 39%;
+    }
+    .center-left{
+        width: 50%;
+    }
+    .card-1{
+        width: 100%;
+       
+    }
+    .app{
+        display: block;
+        text-align: center;
+    }
+    .play,.store{
+        margin: 20px auto;
+    }
+    .first-nav{
+        display: none;
+    }
+    .bar{
+        display: block;
+        width: 100%;
+        background-color: #002d3adc;
+    }
+
+    nav .logo{
+        margin: 10px 20px;
+    }
+    nav{
+        background: #fff;
+        width: 100%;
+    }
+    .res-nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+    }
+    .navbar-light{
+        width: 100%;
+        background: transparent;
+    }
+}
+@media (max-width:1000px){
+.left-card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.card-1{
+    width: 100%;
+    padding: 10px;
+}
+.card-3{
+    width: 33%;
+    margin: 0;
+    padding:0;
+    padding-top: 10px;
+}
+.card-2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:66%;
+}
+.card-3 .card-1 i{
+ padding-top: 0;
+}
+.card-icon i{
+    color:  #13AE92;
+    font-size: 36px;
+    width: 100%;
+   justify-content: center;
+   text-align: center;
+}
+.card-2 .card-1{
+    width: 50%;
+}
+.card-1{
+    text-align: center;
+}
+.card-h,.card-h2{
+    margin: 50px 10px;
+}
+.right-card {
+    width: 70%;
+    margin: 15px auto;
+    text-align: center;
+    padding: 20px;
+}
+    
+}
+@media (max-width:800px){
+    .main{
+        height: 100%;
+        background-image: none ;
+    }
+    .left-content h1 {
+        font-size: 36px;
+        font-weight: 700;
+        margin: 10px 0;
+    }
+    .card-3 .card-1{
+        width: 100%;
+    }
+    .card-2 .card-1{
+        width: 48%;
+    }
+    .last-right {
+        width: 50%;
+    }
+    .last-right img{
+        width: 100%;
+        height: 100%;
+    }
+}
+@media (max-width:750px){
+    .left-card {
+        display: block;
+        text-align: center;
+    }
+    .card-3 .card-1{
+        width: 50%;
+    }
+    .card-3,.card-2{
+        width: 100%;
+    }
+    
+    .f-nav{
+        width: 60%;
+    }
+    .foot{
+        width: 100%;
+    }
+    .foot .logo{
+        width:60%;
+    }
+    .hr{
+        display: none;
+    }
+}
+
+@media (max-width:700px){
+    .left-card{
+        display: block;
+        text-align: center;
+    }
+    .card-3 .card-1{
+        width: 50%;
+    }
+    .card-3,.card-2{
+        width: 100%;
+    }
+    .last-card{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .right-card{
+        width: 80%;
+    }.center-left{
+        width: 90%;
+        text-align: center;
+        padding: 20px 10px;
+        margin: 10px auto;
+    }
+    .center-right{
+        width: 90%;
+        margin: 10px auto;
+        text-align: center;
+    }
+
+    .center-right img{
+        width: 55%;
+    }
+   
+    .cards-last{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .services{
+        width: 100%;
+    }
+    .last-right{
+        height: 100%;
+    }
+   
+} 
+
+@media (max-width:650px){
+    .content{
+        flex-wrap: wrap;
+    }
+    .left-content{
+        width: 90%;
+        margin: 10px auto;
+        text-align: center;
+    }
+    .right-content{
+        width: 80%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .card-left,.card-right{
+        width: 50%;
+    }
+}
+@media (max-width:550px){
+    .foot {
+        display: block;
+        text-align: center;
+    }
+    .f-nav,.icons{
+        margin: 10px auto;
+        width: 70%;
+    }
+}
+@media (max-width:500px){
+    .card-h,.card-h2{
+        width: 90%;
+        margin: 30px 0;
+    }
+    .card-h2{
+        /* display: flex; */
+        flex-direction: column-reverse;
+    }
+    .card-h:hover{
+        box-shadow: 8px 8px 15px grey;
+    }
+    .card-right,.card-left{
+        width: 80%;
+        margin: 10px auto;
+        text-align: center;
+    }
+    .last-right{
+        display: none;
+    }
+    .last-left{
+        width: 90%;
+        text-align: center;
+        margin: 10px auto;
+
+    }
+    .app {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+    .f-nav{
+        width: 90%;
+
+    }
+}
+@media (max-width:450px){
+    .first-cards{
+        margin: 40px 0;
+    }
+    .right-card{
+        width: 90%;
+        margin: 10px auto;
+    }
+    .card-1{
+        margin: 0;
+    }
+}
+@media (max-width:400px){
+    .card-2{
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+    .card-3 .card-1{
+        width: 80%;
+        margin: 10px auto;
+    }
+    .card-2 .card-1{
+        width: 80%;
+        margin: 10px auto;
+    }
+    .left-content{
+        width: 100%;
+        padding: 10px;
+    }
+    .app{
+        display: block;
+    }
+    .center-left{
+        width: 100%;
+    }
+    .card-left,.card-right{
+        width: 100%;
+        padding: 10px;
+    }
+    .f-nav{
+        width: 100%;
+    }
+}
+@media (max-width:350px){
+    .foot ul li a {
+        text-decoration: none;
+        padding: 0 5px;
+        color: #fff;
+    }
+}
